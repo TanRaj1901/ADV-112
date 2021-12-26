@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Case Study</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <br>
+                <div class="jumbotron">
+                    <h1 class="display-4">Case Study <img src="https://img.icons8.com/nolan/64/file.png"/></h1>
+                    <label>Who is more accurate?</label>
+                </div>
+                <ol>
+                    <div class="text_images_and_results">
+                        <li>
+                            <b>Test Image - </b><img src="shoes.jfif" class="img-responsive">
+                        </li>
+                        <br>
+                        <h5>Output on <b>Microsoft Azure</b> - 
+                            <span>a close up of a footwear</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model</b> - 
+                            <span id="object_name"></span>
+                        </h5>
+
+                        <div class="mini_result">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> </h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text_images_and_results">
+                        <li>
+                            <b>Test Image - </b><img src="download.jfif" class="img-responsive">
+                        </li>
+                        <br>
+                        <h5>Output on <b>Microsoft Azure</b> - 
+                            <span>a large brick building with grass in front of a house</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model</b> - 
+                            <span id="object_name"> </span>
+                        </h5>
+                        
+
+                        <div class="mini_result">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> </h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text_images_and_results">
+                        <li>
+                            <b>Test Image - </b><img src="football.jfif" class="img-responsive">
+                        </li>
+                        <br>
+                        <h5>Output on <b>Microsoft Azure</b> - 
+                            <span>ball on a field</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model</b> - 
+                            <span id="object_name"> </span>
+                        </h5>
+                        
+
+                        <div class="mini_result">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> </h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text_images_and_results">
+                        <li>
+                            <b>Test Image - </b><img src="eiffel tower.jfif" class="img-responsive">
+                        </li>
+                        <br>
+                        <h5>Output on <b>Microsoft Azure</b> - 
+                            <span>a large clock tower in the background of Eiffel Tower</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model</b> - 
+                            <span id="object_name"> </span>
+                        </h5>
+                        <div class="mini_result">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> </h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text_images_and_results">
+                        <li>
+                            <b>Test Image - </b><img src="bookshelf.jfif" class="img-responsive">
+                        </li>
+                        <br>
+                        <h5>Output on <b>Microsoft Azure</b> - 
+                            <span>book shelf filled with books</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model</b> - 
+                            <span id="object_name"> </span>
+                        </h5>
+                        
+
+                        <div class="mini_result">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> </h4>
+                        </div>
+                    </div>
+                    <br>
+                </ol>
+                <br>
+            </center>
+        </div>
+    </body>
+</html>

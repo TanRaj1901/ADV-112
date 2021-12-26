@@ -1,0 +1,21 @@
+body{
+    background-color: lawngreen;
+}
+
+.jumbotron{
+    font-family: 'Lobster Two', cursive;
+}
+
+.text_images_and_results{
+    box-shadow: 5px 5px 20px solid gray;
+}
+
+.mini_result{
+    background-color: cornflowerblue;
+    border: lightblue 2px solid;
+    border-radius: 10px;
+}
+
+li {
+    font-weight: bold;
+}
